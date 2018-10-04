@@ -5,6 +5,8 @@
 #Greeting
 print ("Hello, Welcome to this Calendar program!")
 print ("This program will ask for a year and a month\nand then print out the calendar for it!\n")
+print ("Year input should be between 1800 and 2099")
+print ("Month input should be fully spelled out and capitalized")
 
 #User Input
 year = int(input("Enter the year you want for your calendar: "))
